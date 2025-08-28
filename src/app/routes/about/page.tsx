@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <section
-      className="max-w-6xl mx-auto py-20 px-6 md:px-12 bg-white"
+      className="max-w-6xl mx-auto md:py-20 px-6 md:px-12 bg-white"
       id="about"
     >
       <h2 className="text-4xl lg:text-5xl font-bold text-center mb-16 uppercase tracking-wider text-primary">
@@ -57,9 +57,9 @@ export default function About() {
       <div className="flex items-center justify-center mx-20 mt-8">
         <Button
           asChild
-          className="w-full text-xl lg:text-3xl p-6 lg:p-10"
+          className="w-full text-sm lg:text-3xl p-6 lg:p-10"
         >
-          <Link href={""} className=" uppercase">
+          <Link href={""} className="uppercase">
             Join the next train
           </Link>
         </Button>

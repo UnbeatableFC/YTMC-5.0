@@ -3,7 +3,7 @@ import React from "react";
 
 const ThemeSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center bg-white px-6 md:px-12 py-16 max-w-7xl mx-auto">
+    <div className="flex flex-col lg:flex-row items-center justify-center bg-white px-6 md:px-12 py-16 max-w-7xl mx-auto mt-20 md:mt-0">
       {/* Text container */}
       <div className="lg:w-1/2 text-center lg:text-left">
         <div className="flex flex-col gap-0 mb-12">

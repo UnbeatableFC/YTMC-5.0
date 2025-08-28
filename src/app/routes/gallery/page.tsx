@@ -108,9 +108,9 @@ export default function GallerySection() {
       <div className="flex items-center justify-center mx-20 mt-8">
         <Button
           asChild
-          className="w-full text-xl lg:text-3xl p-6 lg:p-10"
+          className="w-full text-sm lg:text-3xl p-6 lg:p-10"
         >
-          <Link href={""} className=" uppercase">
+          <Link href={""} className="uppercase">
             Join the next train
           </Link>
         </Button>

@@ -32,13 +32,12 @@ const Hero = () => {
       {/* Image section: background on large, featured image on smaller */}
       <div className="relative w-full lg:w-1/2 h-72 sm:h-96 lg:h-full background-image">
         {/* On smaller screens, also show image as <Image> for better loading or SEO if needed */}
-        <div className="block lg:hidden w-full h-full">
+        <div className="block lg:hidden w-full h-full mb-44 md:mb-0">
           <Image
             src="/hero.jpg"
             alt="hero"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-b-lg"
+            fill
+            className="rounded-b-lg object-cover"
             priority
           />
         </div>
