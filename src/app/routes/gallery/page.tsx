@@ -18,7 +18,9 @@ const photos = [
 ]; // Replace with your actual photo URLs
 
 export default function GallerySection() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(
+    null
+  );
 
   // Close modal function
   const closeModal = () => setSelectedImage(null);
