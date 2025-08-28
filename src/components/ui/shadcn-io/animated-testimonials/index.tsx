@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -26,6 +27,7 @@ export const AnimatedTestimonials = ({
 }: AnimatedTestimonialsProps) => {
   const [active, setActive] = useState(0);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleNext = () => {
     setActive((prev) => (prev + 1) % testimonials.length);
   };
