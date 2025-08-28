@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "YTMC 5.0",
   description: "The Standing One",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
