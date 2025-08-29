@@ -36,7 +36,7 @@ export default function About() {
         {/* Convener Description */}
         <div className="flex-1 flex flex-col items-center text-center lg:text-left">
           <Image
-            src="/convener.jpg"
+            src="/convener.JPG"
             alt="Convener Jane Doe"
             width={256}
             height={256}
